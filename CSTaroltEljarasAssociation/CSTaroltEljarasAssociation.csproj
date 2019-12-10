@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CSAc4yServiceLib" Version="1.0.0" />
+    <PackageReference Include="CSAc4yXMLObjectPersistentLib" Version="1.2019.1203.1" />
+    <PackageReference Include="CSModulPersistentCoreLib" Version="1.2019.1203.2" />
+    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="CSLibAc4yObjectDBCap">
+      <HintPath>..\..\..\ac4y\CSLibAc4yObjectDBCap\CSLibAc4yObjectDBCap\bin\Debug\netstandard2\CSLibAc4yObjectDBCap.dll</HintPath>
+    </Reference>
+    <Reference Include="CSLibAc4yObjectObjectService">
+      <HintPath>..\..\..\ac4y\CSLibAc4yObjectObjectService\CSLibAc4yObjectObjectService\bin\Debug\netstandard2\CSLibAc4yObjectObjectService.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
