@@ -9,7 +9,7 @@
     <PackageReference Include="CSAc4yServiceLib" Version="1.0.0" />
     <PackageReference Include="CSAc4yXMLObjectPersistentLib" Version="1.2019.1203.1" />
     <PackageReference Include="CSModulPersistentCoreLib" Version="1.2019.1203.2" />
-    <PackageReference Include="log4net" Version="2.0.8" />
+    <PackageReference Include="log4net" Version="2.0.10" />
     <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
     <PackageReference Include="System.Data.SqlClient" Version="4.8.0" />
   </ItemGroup>
